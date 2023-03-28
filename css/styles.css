@@ -1,0 +1,83 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.text-1 {
+    font-size: 12px;
+}
+
+.text-2 {
+    font-size: 14px;
+}
+
+.text-3 {
+    font-size: 16px;
+}
+
+.text-4 {
+    font-size: 18px;
+}
+
+.text-5 {
+    font-size: 22px;
+}
+
+.text-100 {
+    font-weight: 100;
+}
+
+.text-300 {
+    font-weight: 300;
+}
+
+.text-500 {
+    font-weight: 500;
+}
+
+.text-700 {
+    font-weight: 700;
+}
+
+.text-900 {
+    font-weight: 900;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-inherit {
+    font-style: inherit;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-green {
+    color: #21ac8f;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+#logo img {
+    width: 100px;
+}

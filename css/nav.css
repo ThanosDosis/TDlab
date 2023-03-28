@@ -1,0 +1,29 @@
+nav {
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    color: blue;
+    transition: .5s;
+}
