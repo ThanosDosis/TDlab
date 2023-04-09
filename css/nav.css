@@ -1,29 +1,130 @@
-nav {
-    height: 80px;
+/*Logo TDlab*/
+
+#logo {
+    float: left;
+    width: 33%;
+}
+
+#logo-image img {
+    max-width: 150px;
     width: 100%;
+    height: auto;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.logo a {
+    display: block;
+}
+
+
+/*Main menu*/
+
+nav {
+    display: none;
+}
+
+.main-menu {
+    width: 100%;
+    text-align: center;
 }
 
 nav ul {
     float: center;
+    text-align: center;
     margin-right: 20px;
     margin-left: 20px;
+    margin: 0;
+    padding-top: 30px;
 }
 
 nav ul li {
     display: inline-block;
-    line-height: 80px;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    font-family: Roboto;
-    color: #000000;
-    font-size: 14px;
-    font-weight: bolder;
     text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
 }
 
-a.active,
-a:hover {
-    color: blue;
-    transition: .5s;
+nav ul li a:hover {
+    cursor: pointer;
+    color: #095073;
+    transition: 0.5s;
+}
+
+
+/*Social icons in header*/
+
+#social {
+    float: left;
+    width: 33%;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#social a {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+}
+
+#social i {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#social a:hover {
+    cursor: pointer;
+    color: #095073;
+    transition: 0.5s;
+}
+
+
+/*Hamburger menu*/
+
+.open-btn {
+    color: #fff;
+    font-size: 20px;
+    width: 33%;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 40px;
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+.open-btn:hover {
+    cursor: pointer;
+    color: #095073;
+    transition: 0.5s;
+}
+
+
+/*Close button for menu*/
+
+.close-btn {
+    color: #fff;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 40px;
+    background-color: transparent;
+    border: 1px transparent;
+}
+
+.close-btn:hover {
+    color: #095073;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.close-btn {
+    display: none;
 }

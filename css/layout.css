@@ -234,7 +234,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1025px) {
     .container {
         width: 100%;
         box-sizing: border-box;
@@ -312,7 +312,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
     .container {
         width: 1200px;
         margin: 0 auto;
